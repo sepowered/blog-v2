@@ -122,9 +122,15 @@ globalStyle('article th', {
 globalStyle('article blockquote', {
   paddingLeft: rem(16),
   borderLeft: `${rem(4)} solid ${theme.colors.gray.accent}`,
-  paddingBottom: rem(28),
+  marginBottom: rem(16),
   color: theme.colors.gray.accent,
   fontStyle: 'italic',
+});
+
+// 임시로 padding 써서 줬음. 나중에 p테그 padding 제거해야함.
+globalStyle('article blockquote > p', {
+  paddingBottom: rem(4)
+
 });
 
 globalStyle('article ul, article ol', {

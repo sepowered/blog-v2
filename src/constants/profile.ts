@@ -1,13 +1,13 @@
 export const profile = {
-  cardBackgroundColor: '#FAEE5D',
-  modalButtonColor: '#AB8C20',
+  cardBackgroundColor: '#DECEEA',
+  modalButtonColor: '#6c4980',
 
-  profileImageShadowColor: 'rgba(232, 114, 24, 0.43)',
-  profileImageFilter: '',
-  authorTextColor: '#302C1D',
+  profileImageShadowColor: 'rgba(59, 34, 73, 0.43)',
+  profileImageFilter: '#6c4980',
+  authorTextColor: '#3b2249',
 
-  titleTextColor: '#CAA937',
-  contentTextColor: '#302C1D',
+  titleTextColor: '#ad85c7',
+  contentTextColor: '#3b2249',
 
   userDetails: [
     { title: 'Studying', content: 'Product design\nUI/UX design' },
@@ -16,4 +16,4 @@ export const profile = {
 };
 
 export const playlistEmbedUrl =
-  'https://embed.music.apple.com/kr/playlist/chestnut/pl.u-Zmblx9rUl6Y0zq?l=en-GB';
+  'https://embed.music.apple.com/jp/album/shinsei-mokuroku/1789078173';
