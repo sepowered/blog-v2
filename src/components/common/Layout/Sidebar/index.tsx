@@ -9,6 +9,9 @@ import Divider from '../../Divider';
 import NavigateMenu from '../NavigateMenu';
 import ThemeToggle from '../ThemeToggle';
 
+import Symbol from './symbol';
+// use .svg symbol instead text
+
 const Sidebar: React.FC = () => {
   const { title, author } = useSiteMetadata();
 
@@ -16,7 +19,7 @@ const Sidebar: React.FC = () => {
     <aside className={styles.root}>
       <div className={styles.topContainer}>
         <Link to="/" className={styles.branding}>
-          {title}
+          <Symbol />
         </Link>
         <Divider />
         <NavigateMenu />

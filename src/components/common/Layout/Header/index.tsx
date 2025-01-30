@@ -11,6 +11,9 @@ import NavigateMenu from '../NavigateMenu';
 import ThemeToggle from '../ThemeToggle';
 import * as styles from './styles.css';
 
+import Symbol from './symbol';
+// use .svg symbol instead text
+
 const Header = () => {
   const { title, author } = useSiteMetadata();
 
@@ -35,7 +38,7 @@ const Header = () => {
         <header className={styles.root}>
           <div className={styles.inner}>
             <Link to="/" className={styles.branding}>
-              {title}
+              <Symbol />
             </Link>
 
             <Accordion.Item
