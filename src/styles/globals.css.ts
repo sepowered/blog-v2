@@ -94,6 +94,11 @@ globalStyle('article strong', {
   fontWeight: 600,
 });
 
+// 임시 이텔릭
+globalStyle('article italic', {
+  fontStyle: 'italic',
+});
+
 globalStyle('article > div[data-content] > :first-child', {
   paddingTop: 0,
 });
